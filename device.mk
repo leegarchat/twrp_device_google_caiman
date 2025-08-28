@@ -7,7 +7,7 @@
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += build.variant.self=$(BUILD_VATIANT_SELF)
 
-DEVICE_PATH := device/google/komodo
+DEVICE_PATH := device/google/caiman
 
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
@@ -15,9 +15,9 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="komodo-user 15 AP3A.241005.015 12366759 release-keys" \
-    BuildFingerprint=google/komodo/komodo:15/AP3A.241005.015/12366759:user/release-keys \
-    DeviceProduct=komodo
+    BuildDesc="caiman-user 15 AP3A.241005.015 12366759 release-keys" \
+    BuildFingerprint=google/caiman/caiman:15/AP3A.241005.015/12366759:user/release-keys \
+    DeviceProduct=caiman
 
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 PLATFORM_VERSION := 99.87.36
